@@ -13,4 +13,6 @@ public:
 class DoubleLinkedList {
 private:
 	Node* START;
+public:
+	
 };
