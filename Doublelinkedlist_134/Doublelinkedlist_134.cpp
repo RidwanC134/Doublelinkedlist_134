@@ -18,4 +18,6 @@ public:
 	void addNode();
 	bool search(int rollNo, Node** previous, Node** current);
 	bool deleteNode(int rollNo);
+	void traverse();
+
 };
