@@ -39,4 +39,13 @@ void DoubleLinkedList::addNode() {
 	Node* newNode = new Node(); // Step 1
 	newNode->noMhs = nim; // Step 2
 	newNode->name = nm; // Step 2
+
+	/*insert a node in the beginning of a doubly - linked list*/
+	if (START == NULL || nim <= START->noMhs) {
+		if (START != NULL && nim == START->noMhs) {
+			cout << "\nDuplicate number not allowed" << endl;
+			return;
+		}
+		newNode->next = START; // Step 3
+	}
 }
