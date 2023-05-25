@@ -20,5 +20,11 @@ public:
 	bool deleteNode(int rollNo);
 	bool listEmpty();
 	void traverse();
-
+	void revtraverse();
+	void hapus();
+	void searchData();
 };
+
+DoubleLinkedList::addNode() {
+	START = NULL;
+}
