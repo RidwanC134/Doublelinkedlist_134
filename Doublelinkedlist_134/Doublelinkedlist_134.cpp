@@ -14,5 +14,6 @@ class DoubleLinkedList {
 private:
 	Node* START;
 public:
-	
+	DoubleLinkedList();
+	void addNode();
 };
